@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.18)  4 JUN 2024 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.18)  10 JUL 2024 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,13 +528,13 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 12--14
 []  
  []
 
-) (education.tex) (certificates.tex) (technicalskills.tex) (publications.tex
+) (education.tex) (certificates.tex
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[3])
+[3]) (technicalskills.tex) (publications.tex)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -553,13 +553,13 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: CF7ED59CF2D15FB7625EA045EDA93D6B;624.
  ) 
 Here is how much of TeX's memory you used:
- 14410 strings out of 474423
- 249999 string characters out of 5741718
- 1959496 words of memory out of 5000000
- 36556 multiletter control sequences out of 15000+600000
- 565892 words of font info for 65 fonts, out of 8000000 for 9000
+ 14408 strings out of 474423
+ 249975 string characters out of 5741718
+ 1952496 words of memory out of 5000000
+ 36555 multiletter control sequences out of 15000+600000
+ 565533 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,11n,84p,1414b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 82i,11n,84p,1414b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nanre\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontaw
 esome5/FontAwesome5Brands-Regular.pfb><C:/Users/nanre/AppData/Local/Programs/Mi
@@ -567,14 +567,13 @@ KTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/nanre
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
 ers/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbxti10.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nanre/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on document.pdf (4 pages, 166998 bytes).
+/cmcsc10.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb><C:/Users/nanre/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on document.pdf (4 pages, 149135 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
