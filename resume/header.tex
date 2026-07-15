@@ -23,6 +23,9 @@
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
+% Modern, ATS-safe accent color (deep slate blue) in place of the template default
+\definecolor{AccentColor}{RGB}{27,54,93}
+
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -57,8 +60,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-	\vspace{-4pt}\color{BrickRed}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{BrickRed}\titlerule \vspace{-5pt}]
+	\vspace{-4pt}\color{AccentColor}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{AccentColor}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1

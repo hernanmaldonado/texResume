@@ -2,19 +2,15 @@
 \section{Projects}
 \vspace{-5pt}
 \resumeSubHeadingListStart
-\resumeProjectHeading{\textbf{NameGen: Name generator using Generative AI}}{\href{https://github.com/hernanmaldonado/nameGen}{\underline{Source Code}}}
+\resumeProjectHeading{\textbf{NameGen: Generative AI Name Generator} $|$ \emph{Python, FastAPI, Docker}}{\href{https://github.com/hernanmaldonado/nameGen}{\underline{Source Code}}}
 \resumeItemListStart
-\resumeItem{A fast and succinct name generator that can suggest previously unknown names based on a list of names currently used }
-\resumeItem{The model was created by creating a directed graphs that has as edges the probability of transitioning between any pair of letters at each position of a name. Then by using those probabilities the model samples letters at each position using a multinominal distribution.}
-\resumeItem{The project is showcased as CLI interactive mode both running the entire pipeline and using pickle to persist the graph used for faster results.}
-\resumeItem{The project is also showcased as a local fast API deployment and under a dockerized deployment of the fast API version to show case potential alternatives for deploying the model in a production environment}
+\resumeItem{Generates novel names using directed-graph letter-transition probabilities sampled via multinomial distribution -- the same statistical foundation underlying language model sampling.}
+\resumeItem{Deployed three ways: interactive CLI (with pickle-cached graph for speed), local FastAPI service, and Dockerized container, demonstrating a complete ML deployment lifecycle.}
 \resumeItemListEnd
-\resumeProjectHeading{\textbf{E-Commerce Fraud Detection}}{\href{https://github.com/hernanmaldonado/ML_Fraud_Detection/tree/main/ML_E-Commerce}{\underline{Source Code}}}
+\resumeProjectHeading{\textbf{E-Commerce Fraud Detection} $|$ \emph{Python, XGBoost, Optuna, joblib}}{\href{https://github.com/hernanmaldonado/ML_Fraud_Detection/tree/main/ML_E-Commerce}{\underline{Source Code}}}
 \resumeItemListStart
-\resumeItem{Three tree based machine learning models tuned to detect fraud on an E-Commerce dataset.}
-\resumeItem{This project showcases data analysis, feature engineering and model tuning for Random Forest, Isolation Forest and XGBoost applied to fraud detection.}
-\resumeItem{For XGBoost the hyperparameter tuning is done using Optuna. }
-\resumeItem{Finally, pipelines along joblib are used to save the models for deployment.}
+\resumeItem{Three-model ensemble (Random Forest, Isolation Forest, XGBoost) applied to e-commerce fraud; XGBoost hyperparameters tuned with Optuna.}
+\resumeItem{Models serialized with joblib pipelines, ready for production deployment.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 \vspace{-3pt}
