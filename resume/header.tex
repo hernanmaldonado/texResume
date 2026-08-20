@@ -16,7 +16,6 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \usepackage{multicol}
 \usepackage[dvipsnames]{xcolor}
 \setlength{\multicolsep}{-3.0pt}
@@ -49,8 +48,8 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\topmargin}{-.72in}
+\addtolength{\textheight}{1.48in}
 
 \urlstyle{same}
 
@@ -59,8 +58,11 @@
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
+% Note: \scshape (small caps) removed -- some ATS text extractors mis-read
+% synthetic small-caps glyphs, so section titles are written in real
+% Title Case below and rendered plain bold instead.
 \titleformat{\section}{
-	\vspace{-4pt}\color{AccentColor}\scshape\raggedright\large\bfseries
+	\vspace{-4pt}\color{AccentColor}\raggedright\large\bfseries
 }{}{0em}{}[\color{AccentColor}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable

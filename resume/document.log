@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.15)  15 JUL 2026 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.7.15)  20 AUG 2026 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -286,53 +286,31 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@cols=\count277
 \TX@ftn=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-01-22 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
-\l__pdf_internal_box=\box55
-))
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-help
-er.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
-tawesome5
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)
-)) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count279
-\mult@box=\box56
+\c@tracingmulticols=\count278
+\mult@box=\box55
 \multicol@leftmargin=\dimen159
-\c@unbalance=\count280
-\c@collectmore=\count281
-\doublecol@number=\count282
-\multicoltolerance=\count283
-\multicolpretolerance=\count284
+\c@unbalance=\count279
+\c@collectmore=\count280
+\doublecol@number=\count281
+\multicoltolerance=\count282
+\multicolpretolerance=\count283
 \full@width=\dimen160
 \page@free=\dimen161
 \premulticols=\dimen162
 \postmulticols=\dimen163
 \multicolsep=\skip66
 \multicolbaselineskip=\skip67
-\partial@page=\box57
-\last@line=\box58
-\mc@boxedresult=\box59
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
 \maxbalancingoverflow=\dimen164
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@firstbox=\box62
-\mult@gfirstbox=\box63
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
+\@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
@@ -368,16 +346,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box96
 \@tempa=\box97
 \@tempa=\box98
-\@tempa=\box99
-\c@minrows=\count285
-\c@columnbadness=\count286
-\c@finalcolumnbadness=\count287
+\c@minrows=\count284
+\c@columnbadness=\count285
+\c@finalcolumnbadness=\count286
 \last@try=\dimen165
 \multicolovershoot=\dimen166
 \multicolundershoot=\dimen167
-\mult@nat@firstbox=\box100
-\colbreak@box=\box101
-\mc@col@check@num=\count288
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count287
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -403,6 +380,11 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box101
+)
 (./document.aux)
 \openout1 = `document.aux'.
 
@@ -445,39 +427,17 @@ Package hyperref Info: Link coloring OFF on input line 8.
 \openout3 = `document.out'.
 
  (./contact.tex
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+(Font)              <5> on input line 7.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 7.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 5.
-)
-(./summary.tex
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 2.
-
-) (./workexperience.tex
+)) (./summary.tex)
+(./coreskills.tex) (./workexperience.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
 
@@ -488,11 +448,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texlive/texmf-dist/fon
-ts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc
-/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/c
-m-super-ts1.enc}]) (./projects.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
+dvips/cm-super/cm-super-ts1.enc}]) (./projects.tex
 Overfull \hbox (0.55968pt too wide) in paragraph at lines 5--7
 []  
  []
@@ -514,35 +471,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 0FAA256DDBE853D5E6A8AF6B328E0A2B;750.
+(rerunfilecheck)             Checksum: 8746B9482EA58095692320F963D43564;851.
  ) 
 Here is how much of TeX's memory you used:
- 14389 strings out of 476182
- 246060 string characters out of 5795595
- 1956975 words of memory out of 5000000
- 36193 multiletter control sequences out of 15000+600000
- 563440 words of font info for 56 fonts, out of 8000000 for 9000
+ 11214 strings out of 476182
+ 175113 string characters out of 5795595
+ 1958975 words of memory out of 5000000
+ 33049 multiletter control sequences out of 15000+600000
+ 561904 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 82i,11n,84p,587b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Br
-ands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5
-/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on document.pdf (2 pages, 141039 bytes).
+ 82i,11n,84p,710b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1000.pfb>
+Output written on document.pdf (2 pages, 112108 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
