@@ -106,6 +106,21 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
+% Grouped-employer headings: one company block with multiple roles beneath it
+\newcommand{\resumeCompanyHeading}[2]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & \textbf{\small #2} \\
+	\end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeRoleHeading}[2]{
+	\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\small #1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 

@@ -2,27 +2,16 @@
 \section{Work Experience}
 \resumeSubHeadingListStart
 
-%--------CITI (CURRENT)
-\resumeSubheading
-{Internal Fraud Engineer}{Sep 2024 -- Present}
-{Citigroup, Tampa FL}{Hybrid}
+%--------CITIGROUP (GROUPED: 3 ROLES)
+\resumeCompanyHeading{Citigroup, Tampa FL}{2018 -- 2021, 2022 -- 2023, 2024 -- Present}
+\resumeRoleHeading{Internal Fraud Engineer}{2024 -- Present}
 \resumeItemListStart
+\resumeItem{Rebuild the analytics layer for a ground-up rewrite consolidating \textbf{28 applications} into a single platform: own the \textbf{Python} forecasting, metrics, and dashboard data end to end, and build backend services in \textbf{Java/Spring Boot}; use \textbf{Devin} (AI coding agent) to accelerate delivery.}
 \resumeItem{Mine Hadoop databases (transactions, user behavior, historical cases) to surface fraud patterns and translate findings into \textbf{PySpark/Hive} detection rules targeting anomalous velocity, high-risk access, and suspicious vendors.}
 \resumeItem{Collaborate with analysis teams to simulate, tune, and deploy alert logic; manage alert volume by focusing on recurring MOs that mirror confirmed past crimes.}
 \resumeItemListEnd
 
-%--------BANK OF AMERICA
-\resumeSubheading
-{Consumer Protection Big Data \& ML Consultant}{Oct 2023 -- Dec 2023}
-{Bank of America, Tampa FL}{Hybrid}
-\resumeItemListStart
-\resumeItem{Audited the entire fraud \textbf{Hadoop} ecosystem and produced a data-driven benchmark report comparing current practices against industry standards across performance, reliability, and data quality.}
-\resumeItemListEnd
-
-%--------CITI
-\resumeSubheading
-{Sanctions Machine Learning Engineer}{May 2022 -- Oct 2023}
-{Citigroup, Tampa FL}{Hybrid}
+\resumeRoleHeading{Sanctions Machine Learning Engineer}{2022 -- 2023}
 \resumeItemListStart
 \resumeItem{Automated 500K monthly sanctions alerts by building end-to-end NLP pipelines (Random Forest, Gradient Boosting, XGBoost) with 50+ engineered features to match flagged customers against sanctioned-persons lists.}
 \resumeItem{Cut manual review volume by 50\% by discovering Citi's internal transactions were being double-screened across two independent systems.}
@@ -30,9 +19,33 @@
 \resumeItem{\textbf{Stack: }SQL, Pandas, Python, Scikit-Learn, PyTorch, XGBoost, FastAPI}
 \resumeItemListEnd
 
+\resumeRoleHeading{Cybersecurity Big Data \& ML Engineer}{2018 -- 2021}
+\resumeItemListStart
+\resumeItem{Built from scratch a production anomaly-detection system monitoring 300K employees across 5TB of weekly data using peer-normalized behavioral metrics and k-means clustering to surface insider threats for the Cyber Security Fusion Center.}
+\resumeItem{Engineered ingestion pipelines for 12+ data sources into a 270TB Hadoop cluster (Sqoop, Flume, Python parsers, Hive, Oozie) and built a monitoring system to ensure all feed flows remained current.}
+\resumeItem{\textbf{Stack: }PySpark, PyTorch, Scikit-Learn, TensorFlow, Hive, Oozie, Hadoop, Python, SQL, Linux}
+\resumeItemListEnd
+
+%--------GRUPOBIT
+\resumeSubheading
+{ML Analytics Consultant \& Partner}{2023 -- 2024}
+{Grupo BIT, Colombia}{Contract}
+\resumeItemListStart
+\resumeItem{Delivered ML and analytics work for a CPG business-intelligence provider serving traditional retail channels (wholesalers, distributors, small retailers) across 18 countries.}
+\resumeItem{Supported the company through its sale process as part owner; acquired by \textbf{Teamcore} (Accel-KKR portfolio) in May 2024.}
+\resumeItemListEnd
+
+%--------BANK OF AMERICA
+\resumeSubheading
+{Consumer Protection Big Data \& ML Consultant}{2023}
+{Bank of America, Tampa FL}{Contract}
+\resumeItemListStart
+\resumeItem{Audited the entire fraud \textbf{Hadoop} ecosystem and produced a data-driven benchmark report comparing current practices against industry standards across performance, reliability, and data quality.}
+\resumeItemListEnd
+
 %--------CERTEGY
 \resumeSubheading
-{Data Scientist -- Fraud Detection ML}{May 2021 -- Apr 2022}
+{Data Scientist -- Fraud Detection ML}{2021 -- 2022}
 {Certegy Payments, Tampa FL}{Hybrid}
 \resumeItemListStart
 \resumeItem{Doubled check-fraud detection rate at Walmart by developing Random Forest, Gradient Boosting, and Logistic Regression models; raised KS statistic from 0.05--0.3 to 0.6--0.8.}
@@ -40,27 +53,9 @@
 \resumeItem{\textbf{Stack: }SAS Viya, Oracle SQL, Oracle OML, Python, PyTorch, Scikit-Learn, TensorFlow, AWS}
 \resumeItemListEnd
 
-%--------NIELSEN
-\resumeSubheading
-{Sr. Data Scientist}{Feb 2021 -- Apr 2021}
-{Nielsen, Tampa FL}{Remote}
-\resumeItemListStart
-\resumeItem{Maintained and extended Java codebase for national-scale TV viewership adjudication; developed new attribution features for programming and advertising data. \textbf{Stack: }Java, S3, Git}
-\resumeItemListEnd
-
-%--------CITI
-\resumeSubheading
-{Cybersecurity Big Data \& ML Engineer}{Apr 2018 -- Feb 2021}
-{Citigroup, Tampa FL}{Hybrid}
-\resumeItemListStart
-\resumeItem{Built from scratch a production anomaly-detection system monitoring 300K employees across 5TB of weekly data using peer-normalized behavioral metrics and k-means clustering to surface insider threats for the Cyber Security Fusion Center.}
-\resumeItem{Engineered ingestion pipelines for 12+ data sources into a 270TB Hadoop cluster (Sqoop, Flume, Python parsers, Hive, Oozie) and built a monitoring system to ensure all feed flows remained current.}
-\resumeItem{\textbf{Stack: }PySpark, PyTorch, Scikit-Learn, TensorFlow, Hive, Oozie, Hadoop, Python, SQL, Linux}
-\resumeItemListEnd
-
 %--------WELLCARE
 \resumeSubheading
-{Data Scientist -- Machine Learning}{May 2016 -- Oct 2017}
+{Data Scientist -- Machine Learning}{2016 -- 2017}
 {Wellcare Health Plans (Centene), Tampa FL}{On-Site}
 \resumeItemListStart
 \resumeItem{Reduced hospital readmissions by 60\% using XGBoost and Scikit-Learn, directly limiting Medicare penalty exposure for the plan.}
@@ -70,26 +65,18 @@
 
 %--------GATEWAY
 \resumeSubheading
-{Sr. Decision Support Analyst}{Jan 2015 -- Apr 2016}
+{Sr. Decision Support Analyst}{2015 -- 2016}
 {Gateway HealthPlan (Highmark), Pittsburgh PA}{On-Site}
 \resumeItemListStart
 \resumeItem{Worked directly with the CFO to resolve reconciliation gaps between insurance claims and accounting systems via ETL improvements; built ARIMA cash-flow forecasting model in R; managed a team of three data engineers and supervised SAS platform administration.}
 \resumeItemListEnd
 
-%--------UPMC
+%--------EARLIER EXPERIENCE
 \resumeSubheading
-{Database \& ETL Analyst}{Aug 2012 -- Oct 2014}
-{UPMC Health Plan, Pittsburgh PA}{On-Site}
+{Earlier Experience}{2011 -- 2014, 2021}
+{Nielsen $\bullet$ UPMC Health Plan $\bullet$ University of Pittsburgh}{}
 \resumeItemListStart
-\resumeItem{Built enterprise-wide ETL reporting layers in Oracle SQL and SAS; developed a Random Forest model to segment high-cost members. Earned the 2014 ACES Award (top 1\% of UPMC employees) for excellence in service and process improvement.}
-\resumeItemListEnd
-
-%--------UNIVERSITY OF PITTSBURGH
-\resumeSubheading
-{Project Manager}{Jan 2011 -- Aug 2012}
-{University of Pittsburgh, Pittsburgh PA}{On-Site}
-\resumeItemListStart
-\resumeItem{Managed two \$1.5M grant-funded research projects end-to-end (20+ staff), completed data collection ahead of schedule and under budget; projects featured on local television.}
+\resumeItem{\textbf{Sr. Data Scientist}, Nielsen (contract, 2021) $\bullet$ \textbf{Database \& ETL Analyst}, UPMC Health Plan (2012--2014) --- Oracle SQL/SAS reporting layers; 2014 ACES Award, top 1\% of employees $\bullet$ \textbf{Project Manager}, University of Pittsburgh (2011--2012) --- two \$1.5M grant-funded research projects, 20+ staff.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
